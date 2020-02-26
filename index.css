@@ -1,0 +1,29 @@
+#personaDiv {
+    height: 1600px;
+    width: 1600px;
+    background: repeat url("./assets/Background/Build.jpg");
+    background-position: top -5px left 0px;
+}
+body {
+    margin: 0;  
+}
+#options {
+    position: fixed;
+    bottom: 0px;
+    width: 100vw;
+    height: 30px;
+    background-color: #5eff0023;
+    vertical-align: middle;
+}
+#options>span {
+    padding-top: 5px;
+    width: 30px;
+    display: block;
+    height: 30px;
+    text-align: center;
+
+}
+#options>span:hover {
+    width: 30px;
+    background-color: #5eff005d;
+}

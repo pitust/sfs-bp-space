@@ -1,0 +1,3 @@
+Credits:
+ - Code: Peter Stelmaszek (@pitust on github, u/pitust)
+ - Marketing: (@FourCinnamon0 on github, u/FourCinnamon0)
