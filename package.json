@@ -1,0 +1,20 @@
+{
+  "name": "dnd",
+  "version": "1.0.0",
+  "description": "This is a Spaceflight Simulator BP editor in browser or (planned) for desktop # Todo  - [ ] fix the resources  - [x] get BP generating working  - [ ] package as desktop app  - [ ] package for android? # Credits  - Code: Peter Stelmaszek (@pitust on github, u/pitust)  - Resource hunting: (@FourCinnamon0 on github, u/FourCinnamon0) # Contributing You can send a PR. # License In this program I used resources from the game Spaceflight Simulator. These files are (c) Stefo Mai Morojna. The software code is (c) Piotr Stelamszek and distributed with MIT license.",
+  "main": "electron-init.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pitust/sfs-bp-space.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pitust/sfs-bp-space/issues"
+  },
+  "homepage": "https://github.com/pitust/sfs-bp-space#readme"
+}

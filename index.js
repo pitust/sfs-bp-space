@@ -1,4 +1,18 @@
-
+let proc = require('child_process');
+let devs = proc.execSync('adb devices').toString().trim().split('\n').slice(1);
+if (devs.length != 1) {
+    alert('You need at exactly one ADB device!');
+    process.exit();
+}
+let PRO;
+try {
+    proc.execSync('adb shell ls /sdcard/Android/data/com.StefMorojna.SpaceflightSimulator/files/Unity/UnityPurchasing/*');
+    console.log('PRO confirmed');
+    PRO = true;
+} catch (e) {
+    console.log('NoDLC confirmed');
+    PRO = false;
+}
 let blueprint = document.querySelector('#personaDiv');
 let parts = {
     'Aerodynamics': {
